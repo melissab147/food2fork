@@ -1,4 +1,4 @@
 ---
-title: Github Data
-template: index.jade
+title: Food2Fork Recipes
+template: layout.jade
 ---
