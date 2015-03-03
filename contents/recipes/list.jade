@@ -15,9 +15,11 @@ each item in data.recipes
                         = "Publisher: "
                     a(href= item.publisher)
                         = item.publisher
+                - var social_rank = item.social_rank;
+                - social_rank = +social_rank.toFixed(1);
                 h5
                     b Social Rank: 
-                    = item.social_rank
+                    = social_rank
         br
 
         //pre= JSON.stringify(item)
